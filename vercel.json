@@ -1,1 +1,1 @@
-{ "rewrites": [{ "source": "/(.*)", "destination": "/gShield/" }] }
+{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
