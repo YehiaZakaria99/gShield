@@ -35,7 +35,7 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <nav className="hidden md:flex space-x-6 text-lg text-white">
-          {["/", "about", "services", "projects", "contact"].map((path, idx) => {
+          {["", "about", "services", "projects", "contact"].map((path, idx) => {
             const labels = ["Home", "About", "Services", "Projects", "Contact Us"];
             return (
               <NavLink
